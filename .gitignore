@@ -1,0 +1,53 @@
+# --- FLUTTER & DART ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+app.*.symbols
+app.*.map.json
+
+# --- JAVA & MAVEN (Backend) ---
+target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# --- ANDROID ---
+.gradle/
+local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/key.properties
+*.keystore
+*.jks
+
+# --- DESKTOP PLATFORMS ---
+/linux/flutter/ephemeral/
+/macos/Flutter/ephemeral/
+/windows/flutter/ephemeral/
+/windows/flutter/generated/
+
+# --- IDE & EDITORS ---
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# --- OS FILES ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- SECRETS & CONFIG ---
+.env
+*-local
