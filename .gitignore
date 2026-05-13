@@ -1,53 +1,45 @@
-# --- FLUTTER & DART ---
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-app.*.symbols
-app.*.map.json
-
-# --- JAVA & MAVEN (Backend) ---
-target/
+# Miscellaneous
 *.class
 *.log
-*.jar
-*.war
-*.ear
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# --- ANDROID ---
-.gradle/
-local.properties
-/android/app/debug
-/android/app/profile
-/android/app/release
-/android/key.properties
-*.keystore
-*.jks
-
-# --- DESKTOP PLATFORMS ---
-/linux/flutter/ephemeral/
-/macos/Flutter/ephemeral/
-/windows/flutter/ephemeral/
-/windows/flutter/generated/
-
-# --- IDE & EDITORS ---
-# IntelliJ
-.idea/
+# IntelliJ related
 *.iml
 *.ipr
 *.iws
+.idea/
 
-# VS Code
-.vscode/
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# --- OS FILES ---
-.DS_Store
-Thumbs.db
-desktop.ini
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
 
-# --- SECRETS & CONFIG ---
-.env
-*-local
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
